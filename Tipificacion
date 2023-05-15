@@ -1,0 +1,29 @@
+interface Persona {
+    Nombre: string;
+    Apellido: string;
+    Edad: number;
+    Sexo: string;
+    Direccion: string;
+    mostrarDireccion: ()=> string;
+}
+interface Direccion{
+    calle: string;
+    barrio: string;
+    ciudad: string;
+}
+
+const persona: Persona = {
+    Nombre: 'Julian',
+    Apellido: 'Fernandez',
+    Edad: 18,
+    Sexo: 'M',
+    Direccion: {
+        calle: 'Cosquin',
+        barrio: 'Mataderos',
+        ciudad: 'Capital Federal'
+    }
+}
+
+mostrarDireccion(){
+    return this.nombre+ ',' this.apellido+ ',' this.direccion.ciudad+ ',' this.direccion.barrio+ ',' this.direccion.calle;
+}
