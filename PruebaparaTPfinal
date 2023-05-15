@@ -1,5 +1,0 @@
-git init
-git branch <Futbolistas>
-git branch -m <Deportistas>
-git branch -a
-git branch -d <Deportistas>

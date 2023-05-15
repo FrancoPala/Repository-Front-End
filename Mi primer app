@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Mi portfolio</title>
+  </head>
+  <body>
+    <header> Franco Uriel Palavecino </header>
+    <img src="..." class= "img-thumbnail" alt="...">
+    <div class="container">
+
+        <div class="row">
+    
+          <div class="col-4"> Column </div>
+    
+          <div class="col-8"> Column </div>
+    
+        </div>
+    
+      </div>
+      <table class="table">
+
+        <thead>
+    
+          <tr>
+    
+            <th scope="col">Nro Telefono</th>
+    
+            <th scope="col">RedesSociales</th>
+    
+            <th scope="col">DNI/th>
+    
+          </tr>
+    
+        </thead>
+    
+        <tbody>
+    
+          <tr>
+    
+            <th scope="row">11 5956-8103</th>
+    
+            <td>@franpalaa</td>
+    
+            <td>43875160</td>
+    
+          </tr>
+        </tbody>
+     </table>
+  </body>
+  </html>  
